@@ -1,0 +1,47 @@
+.toast-container {
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+  
+  .toast {
+    background-color: rgb(116, 168, 39);
+    width: 8rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 0.5rem;
+    position: relative;
+    animation: slide 1s 1;
+    margin: 0.5rem;
+  
+    span {
+      position: absolute;
+      right: 1rem;
+      cursor: pointer;
+    }
+  }
+  .success {
+    background-color: green;
+  }
+  
+  .warning {
+    background-color: orange;
+  }
+  
+  .error {
+    background-color: red;
+  }
+  
+  .info {
+    background-color: blue;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateY(100%);
+    }
+    ,
+    100% {
+      transform: translateY(0%);
+    }
+  }
