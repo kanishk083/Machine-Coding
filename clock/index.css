@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+.containe{
+    display: absolutete;
+    justify-content: center;
+    align-items: center;
+    height: 70rem;
+    border-radius: 1px solid black;
+}
+.border{
+    border: 2px solid black;
+}
+
+#clock{
+    color: rgb(5, 35, 35);
+    font-size: 20vh;
+}
